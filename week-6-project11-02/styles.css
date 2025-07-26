@@ -1,0 +1,49 @@
+/*    JavaScript 7th Edition
+      Chapter 11
+      Hands-on Project 11-2
+      Author: Chris Newell
+      Date: July 27, 2025
+      Filename: styles.css
+*/
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fff;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: #5472b2;
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section {
+  background-color: #ffdb70;
+  padding: 20px;
+  user-select: none;
+  height: 350px;
+}
+
+fieldset#addressFields {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
