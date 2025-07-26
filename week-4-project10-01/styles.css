@@ -1,0 +1,17 @@
+/* Puzzle board style */
+#puzzleBoard {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 20px auto;
+  background-color: lightgoldenrodyellow;
+  border: 2px solid black;
+}
+
+/* Puzzle pieces style */
+#puzzleBoard img {
+  position: absolute;
+  cursor: pointer;
+  width: 90px;
+  height: 90px;
+}
